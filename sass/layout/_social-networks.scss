@@ -1,29 +1,43 @@
-.team-social-list {
+.social__title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+
+  color: var(--third-title-color);
+}
+
+.social__list {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
-.team-social-item {
+.social__item {
   width: 44px;
   height: 44px;
 }
-.team-social-item + .team-social-item {
+.social__item + .social__item {
   margin-left: 10px;
 }
-.team-social-link {
+.social__link {
   display: flex;
   justify-content: center;
   align-items: center;
 
   width: 100%;
   height: 100%;
-
+  border-radius: 50%;
+}
+.social__icon {
+  fill: currentColor;
+}
+// соц.сети команды
+.team-social--list {
+  align-items: center;
+}
+.team-social--link {
   color: var(--first-social-icon-color);
   background-color: #fff;
-  border-radius: 50%;
-
-  transition: background-color var(--transition-duration) var(--timing-function),
-    color var(--transition-duration) var(--timing-function);
 
   &:hover,
   &:focus {
@@ -31,25 +45,11 @@
     color: var(--hover-social-icon-color);
   }
 }
-.team-social-icon {
-  fill: currentColor;
-}
+
 // соц.сети футера
-.footer-social-list {
-  display: flex;
-  justify-content: center;
-}
-.footer-social-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
-  height: 100%;
-
+.footer-social--link {
   color: var(--second-social-icon-color);
   background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
 
   transition: background-color var(--transition-duration) var(--timing-function);
 
@@ -57,14 +57,4 @@
   &:focus {
     background-color: var(--accent-color);
   }
-}
-.footer-social-item {
-  width: 44px;
-  height: 44px;
-}
-.footer-social-item + .footer-social-item {
-  margin-left: 10px;
-}
-.footer-social-icon {
-  fill: currentColor;
 }

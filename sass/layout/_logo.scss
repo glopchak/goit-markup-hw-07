@@ -1,21 +1,20 @@
-.header-logo {
-  margin-right: 94px;
-}
 .logo {
   color: var(--accent-color);
   font-family: var(--font-logo);
   font-size: 26px;
   line-height: 1.19;
 }
+.header__logo {
+  margin-right: 94px;
+}
 
-.logo-dark {
+.logo--dark {
   color: var(--first-logo-color);
 }
-
-.footer-logo-light {
-  color: var(--second-logo-color);
-}
-.footer-logo {
+.footer__logo {
   display: block;
   margin-bottom: 20px;
+}
+.logo--light {
+  color: var(--second-logo-color);
 }

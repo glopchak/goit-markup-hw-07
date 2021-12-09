@@ -1,12 +1,12 @@
-/*контакты хедера*/
-.header-connect {
+.contacts__list {
+  display: flex;
   margin-left: auto;
-  & .header-item:not(:last-child) {
-    margin-right: 50px;
-  }
+}
+.contacts__item:not(:last-child) {
+  margin-right: 50px;
 }
 
-.header-contacts {
+.contacts__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +27,7 @@
     color: var(--accent-color);
   }
 }
-.mail-icon {
+.contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 }

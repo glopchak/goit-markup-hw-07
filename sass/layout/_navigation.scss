@@ -1,4 +1,17 @@
-.header-link {
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  margin-left: auto;
+}
+.nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav__link {
   position: relative;
 
   display: block;
@@ -19,7 +32,7 @@
   }
 }
 
-.header-link.current {
+.nav__link.current {
   color: var(--accent-color);
 
   &::after {

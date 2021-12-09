@@ -2,18 +2,7 @@
   background-color: var(--main-bckgr-color);
   border-bottom: 1px solid var(--header-bottom-line);
 }
-.header-nav {
-  display: flex;
-  align-items: center;
-}
-.header-list {
-  display: flex;
-  margin-left: auto;
-}
-.header-item:not(:last-child) {
-  margin-right: 50px;
-}
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
