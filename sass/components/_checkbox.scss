@@ -11,7 +11,7 @@
 
   color: var(--second-title-color);
 }
-.check__item {
+.checkbox__item {
   margin-right: 9px;
   display: flex;
   justify-content: center;
@@ -23,11 +23,11 @@
 
   transition: background-color var(--transition-duration) var(--timing-function);
 }
-.check__svg {
+.checkbox__svg {
   fill: var(--second-social-icon-color);
 }
 .checkbox:checked + .checkbox__text {
-  .check__item {
+  .checkbox__item {
     background-color: var(--accent-color);
     border: none;
   }
