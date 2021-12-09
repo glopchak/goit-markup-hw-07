@@ -1,4 +1,4 @@
-.checkbox-text {
+.checkbox__text {
   margin-top: 20px;
   margin-bottom: 30px;
 
@@ -11,7 +11,7 @@
 
   color: var(--second-title-color);
 }
-.check-item {
+.check__item {
   margin-right: 9px;
   display: flex;
   justify-content: center;
@@ -23,16 +23,16 @@
 
   transition: background-color var(--transition-duration) var(--timing-function);
 }
-.check-svg {
+.check__svg {
   fill: var(--second-social-icon-color);
 }
-.checkbox-form:checked + .checkbox-text {
-  .check-item {
+.checkbox:checked + .checkbox__text {
+  .check__item {
     background-color: var(--accent-color);
     border: none;
   }
 }
 
-.checkbox-link {
+.checkbox__link {
   color: var(--accent-color);
 }

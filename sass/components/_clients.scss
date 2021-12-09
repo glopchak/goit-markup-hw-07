@@ -1,19 +1,20 @@
-.client {
+.section--bckgr-clr {
   background-color: var(--main-bckgr-color);
 }
-.client-list {
+.client {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.client-item {
+.client__item {
   width: 170px;
   height: 92px;
+  & + & {
+    margin-left: 30px;
+  }
 }
-.client-item + .client-item {
-  margin-left: 30px;
-}
-.client-link {
+
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,6 +37,6 @@
     border-color: var(--accent-color);
   }
 }
-.client-icon {
+.client__icon {
   fill: currentColor;
 }

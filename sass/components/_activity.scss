@@ -1,16 +1,16 @@
-.activity {
+.section--padding {
   padding-top: 0;
 }
-.activity-list {
+.activity {
   display: flex;
 }
-.activity-item:not(:last-child) {
+.activity__item:not(:last-child) {
   margin-right: 30px;
 }
-.box-images {
+.activity__img {
   position: relative;
 }
-.box-text {
+.activity__box-text {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@
   background: rgba(47, 48, 58, 0.8);
 }
 
-.activity-text {
+.activity__text {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;

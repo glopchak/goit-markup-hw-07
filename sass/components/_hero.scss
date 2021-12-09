@@ -22,7 +22,7 @@
   background-position: center;
   background-color: var(--second-bckgr-color);
 }
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -33,7 +33,7 @@
 }
 /*кнопка "заказ услуги"*/
 
-.hero-btn {
+.button {
   padding: 0;
   width: 200px;
   height: 50px;

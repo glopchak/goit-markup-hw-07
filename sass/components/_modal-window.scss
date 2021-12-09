@@ -7,13 +7,15 @@
   height: 100vh;
 
   transition: opacity 700ms, visibility 700ms;
-}
-.backdrop.is-hidden {
-  .modal {
-    transform: scale(0.75) translateX(-1200px) translateY(-1000px);
-    transition: transform var(--transition-duration);
+
+  &.is-hidden {
+    .modal {
+      transform: scale(0.75) translateX(-1200px) translateY(-1000px);
+      transition: transform var(--transition-duration);
+    }
   }
 }
+
 .modal {
   position: absolute;
   top: 50%;
@@ -32,7 +34,7 @@
   border-radius: 4px;
 }
 
-.modal-close {
+.modal__button {
   position: absolute;
   top: 8px;
   right: 8px;
