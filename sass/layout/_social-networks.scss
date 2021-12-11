@@ -8,17 +8,19 @@
   color: var(--third-title-color);
 }
 
-.social__list {
+.social {
   display: flex;
   justify-content: center;
 }
 .social__item {
   width: 44px;
   height: 44px;
+
+  & + & {
+    margin-left: 10px;
+  }
 }
-.social__item + .social__item {
-  margin-left: 10px;
-}
+
 .social__link {
   display: flex;
   justify-content: center;
@@ -32,9 +34,7 @@
   fill: currentColor;
 }
 // соц.сети команды
-.team-social--list {
-  align-items: center;
-}
+
 .team-social--link {
   color: var(--first-social-icon-color);
   background-color: #fff;

@@ -3,7 +3,7 @@
   align-items: center;
 }
 
-.nav__list {
+.nav {
   display: flex;
   margin-left: auto;
 }
@@ -30,21 +30,21 @@
   &:focus {
     color: var(--accent-color);
   }
-}
 
-.nav__link.current {
-  color: var(--accent-color);
+  &--current {
+    color: var(--accent-color);
 
-  &::after {
-    position: absolute;
-    bottom: -1px;
+    &::after {
+      position: absolute;
+      bottom: -1px;
 
-    content: '';
-    display: block;
-    width: 100%;
-    height: 4px;
+      content: '';
+      display: block;
+      width: 100%;
+      height: 4px;
 
-    background: var(--accent-color);
-    border-radius: 2px;
+      background: var(--accent-color);
+      border-radius: 2px;
+    }
   }
 }

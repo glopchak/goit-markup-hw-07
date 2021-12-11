@@ -10,6 +10,13 @@
   line-height: 1.71;
 
   color: var(--second-title-color);
+
+  .checkbox:checked + & {
+    .checkbox__item {
+      background-color: var(--accent-color);
+      border: none;
+    }
+  }
 }
 .checkbox__item {
   margin-right: 9px;
@@ -25,12 +32,6 @@
 }
 .checkbox__svg {
   fill: var(--second-social-icon-color);
-}
-.checkbox:checked + .checkbox__text {
-  .checkbox__item {
-    background-color: var(--accent-color);
-    border: none;
-  }
 }
 
 .checkbox__link {

@@ -1,7 +1,7 @@
-.address-box {
+.footer__thumb {
   margin-right: 70px;
 }
-.address {
+.address__link {
   font-style: normal;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -14,20 +14,21 @@
   &:focus {
     color: var(--main-text-color);
   }
-}
-.footer-item:not(:last-child) {
-  margin-bottom: 9px;
-}
-.footer-conracts {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  color: var(--second-text-color);
 
-  transition: color var(--transition-duration) var(--timing-function);
+  &-contacts {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--second-text-color);
 
-  &:hover,
-  &:focus {
-    color: #757575;
+    transition: color var(--transition-duration) var(--timing-function);
+
+    &:hover,
+    &:focus {
+      color: #757575;
+    }
   }
+}
+.address__item:not(:last-child) {
+  margin-bottom: 9px;
 }

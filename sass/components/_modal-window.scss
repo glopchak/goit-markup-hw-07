@@ -8,7 +8,7 @@
 
   transition: opacity 700ms, visibility 700ms;
 
-  &.is-hidden {
+  & .is-hidden {
     .modal {
       transform: scale(0.75) translateX(-1200px) translateY(-1000px);
       transition: transform var(--transition-duration);
@@ -34,7 +34,7 @@
   border-radius: 4px;
 }
 
-.modal__button {
+.button-close {
   position: absolute;
   top: 8px;
   right: 8px;
